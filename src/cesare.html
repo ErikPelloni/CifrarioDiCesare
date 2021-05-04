@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cesare Erik Pelloni</title>
+	
+	<meta charset="UTF-8">
+ 	<meta name="description" content="cifrario di cesare n">
+ 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+ 	<meta name="author" content="Erik Pelloni">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="cesare.css">
+	<link rel="shortcut icon" href="i1bpeleri_fav.ico" type="image/x-icon">
+	<link rel="icon" href="i1bpeleri_fav.ico" type="image/x-icon">
+	<!-- Chrome Windows 10-->
+	<!-- data creazione: 20.04.2021 data ultima modifica: 27.04.2021--> 
+</head>
+
+<body>
+	<h1>Cifrario di cesare con n valori</h1>
+	<h3>Inserisci il valore (default 3)</h3>
+	<input type="number" name="num" id="num" value="3" step="1" oninput="cesare()"><br><br>
+	<input type="text" name="in" id="in" placeholder="Inserisci qui il testo da criptare!!" oninput="cesare()"><br></br>
+	<label for="out">Testo criptato:</label>
+	<p id="out"></p>
+	<!--<input type="text" name="out" id="out" placeholder="Qui apparirà il testo criptato" disabled>-->
+	<script src="cesare.js"></script>
+	<footer><p>© Erik Pelloni 2021</p></footer>
+</body>
+</html>
