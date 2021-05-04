@@ -4,7 +4,7 @@
  * Data ultima modifica: 04.05.2021
  */
 
-// pos == numero di posizioni
+// pos == shift amount
 function getValue() {
     var pos = Number.parseInt(document.querySelector("#num").value);
     return pos;
@@ -60,6 +60,8 @@ var caesarShift = function (str, amount) {
 };
 /*
 // https://www.w3resource.com/javascript-exercises/javascript-math-exercise-22.php
+
+// convertitore da numeri romani a interi
 function roman_to_Int(str1) {
     if (str1 == null) return -1;
     var num = char_to_int(str1.charAt(0));
